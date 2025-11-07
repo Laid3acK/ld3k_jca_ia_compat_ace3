@@ -9,6 +9,7 @@ ACE3 ballistics compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsena
   - Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25".
   - SR10 14.5" barrel twist 1:10".
   - M4A4 10.3", M4A1 14.5", M16A4 20" barrel twist 1:7".
+  - HK433 11", 14.5" barrel twist 1:7".
   - Berreta M9A1, barrel length 125mm (4.9"), 15rd magazine.
   - Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
   - Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
