@@ -9,7 +9,8 @@ ACE3 ballistics compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsena
   - Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25".
   - SR10 14.5" barrel twist 1:10".
   - M4A4 10.3", M4A1 14.5", M16A4 20" barrel twist 1:7".
-  - HK433 11", 14.5" barrel twist 1:7".
+  - Heckler & Koch HK433 11", 14.5" barrel twist 1:7".
+  - Heckler & Koch HK437 9" barrel twist 1:8".
   - Berreta M9A1, barrel length 125mm (4.9"), 15rd magazine.
   - Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
   - Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
@@ -32,6 +33,8 @@ ACE3 ballistics compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsena
 - Add 12.7x99mm Mk257 API IR Dim Tracer datas from various sources.
 - Add .338 LM AP485 Armor Piercing according to Lapua datas.
 - Add .338 LM API526 Armor Piercing Incendiary according to Lapua datas.
+- Add .300 Blackout 190gr SUB-X TAP subsonic (zeroing 100m or less recommanded) according to HK437 Handbook.
+- Add .300 Blackout 110gr TAP Urban according to according to HK437 Handbook.
 - Add 7.62x51mm M993 AP from ACE3 Ghitub.
 - Add 7.62x51mm ammunition Subsonic Lapua 200gr B416 ICAO G1 BC 0.518.
 - Add 5.56x45mm M855A1 from 2022/23 datas.
