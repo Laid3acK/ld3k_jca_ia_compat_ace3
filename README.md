@@ -4,25 +4,54 @@ ACE3 ballistics compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsena
 - Default ballistic airFriction based on Advanced Ballistics ICAO ballistic coefficients and drag models with the [ACE3 tool by Ruthberg](https://github.com/acemod/ACE3/blob/master/tools/generate_airfriction_config.py).
 - ACE3 "mass" according to manufacturers' datas.
 - ACE3 values according to:
-  - Barrett M107A1: barrel 29" (736.6mm), twist 1:15", 10rd magazine.
-  - Accuracy International AWM .338LM L115A3 27" barrel twist 1:11.
-  - Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25".
-  - SR10 14.5" barrel twist 1:10".
-  - M4A4 10.3", M4A1 14.5", M16A4 20" barrel twist 1:7".
-  - Heckler & Koch HK433 11", 14.5" barrel twist 1:7".
-  - Heckler & Koch HK437 9" barrel twist 1:8".
-  - Berreta M9A1, barrel length 125mm (4.9"), 15rd magazine.
-  - Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
-  - Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
-  - Sig Sauer P320 Compact, barrel length 3.9", 15rd magazine (US Army Sig Sauer M18).
-  - Heckler & Koch UMP45, barrel length 200mm, 25rd magazine.
-- .45 ACP +P 230gr Winchester Law Enforcement 2025 datas: 990fps (302m/s) barrel length 5".
-- .338 LM ammunition according to Lapua Scenar 250gr GB488 datas.
-- 7.62x51mm ammunition from ACE3 Ghitub: "ACE_762x51_Ball_Mk316_Mod_0" according to Sierra datas: 7.62mm HPBT MatchKing 175gr, ASM G1 BC 0.496 between 2800 fps (853m/s) and 1800 fps (549m/s) converted to ICAO G1 BC 0.489.
-- 5.56x45mm ammunition from ACE3 Ghitub: "B_556x45_Ball", standart 5.56x45mm NATO ball (SS109 / M855).
-- 12.7x99mm M33 661gr according to Barrett datas.
+  - 9x19 Berreta M9A1, barrel length 125mm (4.9"), 15rd magazine.
+  - 9x19 Glock17, barrel length 114mm, 17rd magazine.
+  - 9x19 Sig Sauer P226, barrel length 4.4", 15rd magazine (U.S. Navy SEALs P226 MK25).
+  - 9x19 Sig Sauer P320 Compact, barrel length 3.9", 15rd magazine (US Army Sig Sauer M18).
+  - 9x19 Heckler & Koch MP5, barrel length 225mm (8.858"), 30rd magazine.
+  - .45 ACP Heckler & Koch Mk23, barrel length 149mm, twist 1:378mm, 12rd magazine.
+  - .45 ACP Heckler & Koch UMP45, barrel length 200mm, 25rd magazine.
+  - 5.56x45 M4A4 10.3", M4A1 14.5", M16A4 20" barrel twist 1:7", 30rd magazine.
+  - 5.56x45 HK433 11", 14.5" barrel twist 1:7", 30rd magazine.
+  - 5.56x45 SCAR-L 10", 14.5" barrel twist 1:7", 30rd magazine.
+  - .300 BLK HK437 9" barrel twist 1:8", 30rd magazine.
+  - 7.62x51 Knight's Armament Company Mk 11 MOD 0 20" barrel twist 1:11.25", 20rd magazine.
+  - 7.62x51 SR10 14.5" barrel twist 1:10", 20rd magazine.
+  - 7.62x51 SCAR-H 13", 16" barrel twist 1:12", 20rd magazine.
+  - .338 LM Accuracy International AWM .338LM L115A3 27" barrel twist 1:11", 5rd magazine.
+  - 12.7x99 Barrett M107A1 29" barrel twist 1:15", 10rd magazine.
+  - Riflescope Burris RT-6 Tactical Kit 1-6x24.
+  - Riflescope Leupold Mark 4 3.5-10x40.
+  - Riflescope Schmidt & Bender PM II LP 5-25x56.
+  - Riflescope Vortex Optics Golden Eagle 15-60x52.
+- .45 ACP +P 230gr Winchester Law Enforcement 2025 data: 990fps (302m/s) barrel length 5".
+- 5.56x45 standart NATO ball M855 from ACE3 Ghitub and various sources.
+- 7.62x51 standart NATO ball M80 from ACE3 Ghitub and various sources.
+- .338 LM GB488 Scenar 250gr according to Lapua data.
+- 12.7x99mm M33 661gr according to Barrett data.
+- Add 9x19mm M17 +P Sig Sauer NATO 124gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 data: 365m/s (1198fps) barrel length 4.0".
+- Add 9x19mm M17 +P Sig Sauer NATO 124gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 data: 365m/s (1198fps) barrel length 4.0".
+- Add 9x19mm M1152 115gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 data: 361 m/s (1185fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
+- Add 9x19mm M1153 147gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 data: 300m/s (985fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
+- Add 5.56x45mm M855A1 from 2022/23 datas.
+- Add 5.56x45mm M193 from RUAG Ammotec AG.
+- Add 5.56x45mm Mk262 from ACE3 Ghitub and various sources.
+- Add 5.56x45mm Mk318 from ACE3 Ghitub and various sources.
+- Add 5.56x45mm M995 AP from ACE3 Ghitub and various sources.
+- Add 5.56x45mm Dual Purpose underwater subsonic (zeroing 100m or less recommanded).
+- Add .300 Blackout 190gr SUB-X TAP according to Hornady data.
+- Add .300 Blackout 110gr TAP Urban according to Hornady data.
+- Add 7.62x51mm M80A1 from various sources.
+- Add 7.62x51mm M993 AP from ACE3 Ghitub and various sources.
+- Add 7.62x51mm Mk316 from ACE3 Ghitub and various sources.
+- Add 7.62x51mm Mk319 from ACE3 Ghitub and various sources.
+- Add 7.62x51mm SLAP XM948 from various sources.
+- Add 7.62x51mm SLAP Tracer XM949 from various sources.
+- Add 7.62x51mm B416 Subsonic according to Lapua data.
+- Add .338 LM AP485 Armor Piercing according to Lapua data.
+- Add .338 LM API526 Armor Piercing Incendiary according to Lapua data.
 - Add 12.7x99mm M33 661gr Tracer and IR Dim Tracer.
-- Add 12.7x99mm AMAX according to Hornady datas.
+- Add 12.7x99mm AMAX according to Hornady data.
 - Add 12.7x99mm M903 SLAP datas from various sources.
 - Add 12.7x99mm M962 SLAP Tracer datas from various sources.
 - Add 12.7x99mm Mk211 HEIAP Raufoss datas from various sources.
@@ -31,23 +60,7 @@ ACE3 ballistics compatibility for the Arma 3 weapons' mod "JCA - Infantry Arsena
 - Add 12.7x99mm M8 API datas from various sources.
 - Add 12.7x99mm M20 API Tracer datas from various sources.
 - Add 12.7x99mm Mk257 API IR Dim Tracer datas from various sources.
-- Add .338 LM AP485 Armor Piercing according to Lapua datas.
-- Add .338 LM API526 Armor Piercing Incendiary according to Lapua datas.
-- Add .300 Blackout 190gr SUB-X TAP subsonic (zeroing 100m or less recommanded) according to HK437 Handbook.
-- Add .300 Blackout 110gr TAP Urban according to according to HK437 Handbook.
-- Add 7.62x51mm M993 AP from ACE3 Ghitub.
-- Add 7.62x51mm ammunition Subsonic Lapua 200gr B416 ICAO G1 BC 0.518.
-- Add 5.56x45mm M855A1 from 2022/23 datas.
-- Add 5.56x45mm M193 from RUAG Ammotec AG.
-- Add 5.56x45mm Mk262 from ACE3 Ghitub.
-- Add 5.56x45mm Mk318 from ACE3 Ghitub.
-- Add 5.56x45mm M995 AP from ACE3 Ghitub.
-- Add 5.56x45mm ammunition Dual Purpose underwater subsonic (zeroing 100m or less recommanded).
-- Add M17 9x19mm +P Sig Sauer NATO 124gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 datas: 365m/s (1198fps) barrel length 4.0".
-- Add M17 9x19mm +P Sig Sauer NATO 124gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 datas: 365m/s (1198fps) barrel length 4.0".
-- Add M1152 9x19mm 115gr FMJ (Full Metal Jacket) according to Sig Sauer 2024 datas: 361 m/s (1185fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
-- Add M1153 9x19mm 147gr JHP (Jacketed Hollow Point) according to Sig Sauer 2024 datas: 300m/s (985fps) barrel length 4.0" ± 1/16" (± 3.9375", 4.0625").
-- Add AtragMx presets and accurate mRad reticle calibration.
+- Add AtragMx presets.
 - Add "ACE_ScopeHeightAboveRail" and "ACE_railHeightAboveBore" values from ACE3 "checkScopes.sqf".
 - Effects and terminal ballistic based on vanilla Arma 3 values.
 
